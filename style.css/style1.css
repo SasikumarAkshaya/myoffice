@@ -1,0 +1,17 @@
+body{
+    width: 30%;
+    height: 80px;
+    background-color: rgb(187, 179, 150);
+    border-radius: 25px;
+    padding: 30%;
+    padding-block: 12%;
+}
+.container1{
+    width: 50%;
+    height: 100px;
+    background-color: rgb(12, 12, 11);
+    border-radius: 25px;
+    padding: 50%;
+    padding-block: 15%;
+    text-align: center;
+}

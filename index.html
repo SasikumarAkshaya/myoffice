@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav-content{
+               display:flex ;
+               column-gap: 5%;
+               list-style-type:none;
+            }
+            .nav-content li{
+                padding:2.5%;
+            }
+            .nav-content li a{
+                text-decoration:none;
+               color: #090808;
+               font-size:medium;
+            }
+        .container{
+            background-color: #f3f6f6f6;
+            border-radius: 4px;
+            width: 100%;
+            position: absolute;
+            z-index: 6;
+        }
+        .nav-content li:hover{
+            background-color: #717779;
+        }
+        .nav-content li a:hover{
+              color: rgb(32, 29, 29);
+            }
+            .carusel{
+                width: 100%;
+                height: 900px;
+              background: url("./images/bgimage.jpg");
+              background-position: center;
+              position: absolute;
+            }
+            .caption{
+                background-color:hsl(180, 100%, 2%);
+                padding: 3%;
+                width: 20%;
+                margin: 4%;
+                border-radius: 10px;
+                box-shadow: 10px 10px 5pz rgb(197, 206, 210);
+                background-position: center;
+                z-index: 6;
+                position: absolute;
+                
+                color: rgb(115, 131, 145);
+                top: 40%;
+                left: 17%;
+            }
+    </style>
+</head>
+<body>
+    <div class ="container">
+       <nav>
+          <ul class="nav-content">
+             <li> <a href="./pages/home.html">HOME</a></li>
+             <li> <a href="./pages/about.html">ABOUTUS</a></li>
+             <li> <a href="./pages/register.html">APPLY</a></li>
+             <li> <a href="./pages/contact.html">CONTACT US</a></li>
+             <li> <a href="./pages/login.html">LOGIN</a></li>
+         </ul>
+       </nav>
+    </div>
+    <div class="carusel">
+     
+    </div>
+    <div class="caption">
+     <div class="caption-head">
+      <h1>WELCOME</h1>
+    </div>   
+    <div class="caption-para">
+     <p></p>
+    </div>
+</body>
+</html>
